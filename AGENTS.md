@@ -43,3 +43,9 @@ context; deterministic gates first, LLM review after.
 
 Every prompt → `docs/prompts/`; tokens/cost → `docs/llm-usage.md`; run
 reports → `docs/reports/`.
+
+After each run report, generate `docs/reports/tg-post-vN.md` — a
+ready-to-paste Telegram post, written in **Russian**: constraints → result →
+metrics (spec tokens, prompts, first-run, bugs, tokens in/out, cost) → a
+link to this project's GitHub repository
+(https://github.com/axyi/link-checker). Under ~1500 characters.
