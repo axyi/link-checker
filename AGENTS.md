@@ -46,6 +46,8 @@ reports → `docs/reports/`.
 
 After each run report, generate `docs/reports/tg-post-vN.md` — a
 ready-to-paste Telegram post, written in **Russian**: constraints → result →
-metrics (spec tokens, prompts, first-run, bugs, tokens in/out, cost) → a
+metrics (executor model — always named; spec tokens, prompts, first-run,
+bugs, tokens in/out, cost — when the harness does not expose tokens/cost,
+keep that note and add an estimate at public API prices) → a
 link to this project's GitHub repository
 (https://github.com/axyi/link-checker). Under ~1500 characters.
