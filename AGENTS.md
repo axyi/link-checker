@@ -24,7 +24,8 @@ Conventional commits; **one prompt → one commit**, reference the prompt file:
 ## Branch strategy
 
 `feat/<slug>`, `fix/<slug>`, `docs/<slug>`; parallel agent work via git
-worktrees, one worktree per agent.
+worktrees, one worktree per agent. Exception: a single-agent run
+implementing a whole spec end-to-end may commit directly to `main`.
 
 ## Gates — run before reporting success
 
