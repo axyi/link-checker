@@ -29,9 +29,9 @@ worktrees, one worktree per agent.
 ## Gates — run before reporting success
 
 ```bash
-ruff check --fix .                          # → All checks passed!, exit 0
+ruff check .                                # → All checks passed!, exit 0
 pytest                                      # → exit 0
-./linckchecker.py --workdir ~/aihome/ecto-1-kb   # → green run, exit 0
+./linckchecker.py --workdir docs            # → green run on repo docs, exit 0
 ```
 
 ## Review
